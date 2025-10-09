@@ -1,0 +1,26 @@
+{
+    "surface": {
+        "Forced": {
+            "id": -6,
+            "dim": 2,
+            "name": "Forced"
+        },
+        "Fixed": {
+            "id": -7,
+            "dim": 2,
+            "name": "Fixed"
+        }
+    },
+    "solid": {
+        "M1": {
+            "id": -8,
+            "dim": 3,
+            "name": "M1"
+        },
+        "M2": {
+            "id": -9,
+            "dim": 3,
+            "name": "M2"
+        }
+    }
+}
