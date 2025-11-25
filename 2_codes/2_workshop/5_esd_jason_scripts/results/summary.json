@@ -1,0 +1,14 @@
+{
+  "max_displacement": 1870568153.6104388,
+  "max_von_mises_stress": 8487198.47445348,
+  "mesh_info": {
+    "num_cells": 1204,
+    "num_vertices": 663,
+    "element_family": "CG",
+    "element_degree": 1
+  },
+  "output_files": {
+    "displacement": "results/displacement.xdmf",
+    "stress": "results/stress.xdmf"
+  }
+}

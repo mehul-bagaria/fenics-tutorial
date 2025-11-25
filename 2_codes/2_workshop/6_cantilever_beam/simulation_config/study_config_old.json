@@ -1,0 +1,26 @@
+{
+    "description": "Static analysis configuration for cantilever beam study",
+    "file_paths": {
+        "mesh_file": "mesh/output/mesh.xdmf",
+        "output_file": "post-processing/output/cantilever_results.xdmf",
+        "note": "surface_markers_file, solid_markers_file, and markers_json_file are automatically derived from mesh_file location"
+    },
+    "boundary_conditions": {
+        "fixed_marker_name": "fixed_end",
+        "forced_marker_name": "forced_end",
+        "material_marker_name": "Domain"
+    },
+    "material_properties": {
+        "E": 2.1e11,
+        "nu": 0.3,
+        "description": "Steel properties"
+    },
+    "loading_conditions": {
+        "f_body": [0.0, 0.0, 0.0],
+        "f_surface": [0.0, 0.0, -1e6],
+        "description": "Body force in N/m³, Surface traction in Pa"
+    },
+    "output_control": {
+        "print_results": true
+    }
+}

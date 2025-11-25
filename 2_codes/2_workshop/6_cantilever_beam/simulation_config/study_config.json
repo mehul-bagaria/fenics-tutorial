@@ -1,0 +1,49 @@
+{
+  "project_id": "68d46ccf-fc09-4a89-8d8e-f5bcded1babb",
+  "boundaries": [
+    {
+      "name": "fixed",
+      "definition": {
+        "type": "Displacement Constraints",
+        "values": {
+          "UX": 0,
+          "UY": 0,
+          "UZ": 0
+        }
+      },
+      "assigned": [
+        "fixed_end"
+      ]
+    }
+  ],
+  "loads": [
+    {
+      "name": "Force Load",
+      "definition": {
+        "FX": 1,
+        "FY": 0,
+        "FZ": 0
+      },
+      "assigned": [
+        "forced_end"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Alluminium",
+      "properties": {
+        "type": "Linear Elastic",
+        "E": 2000000,
+        "nu": 0.3
+      },
+      "assigned": [
+        "Domain"
+      ]
+    }
+  ],
+  "mesh": {
+    "mesh_file": "mesh/output/mesh.xdmf"
+  },
+  "errors": []
+}

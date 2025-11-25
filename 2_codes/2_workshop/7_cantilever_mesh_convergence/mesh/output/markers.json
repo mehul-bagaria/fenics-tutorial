@@ -1,0 +1,21 @@
+{
+    "surface": {
+        "forced_end": {
+            "id": -6,
+            "dim": 2,
+            "name": "forced_end"
+        },
+        "fixed_end": {
+            "id": -7,
+            "dim": 2,
+            "name": "fixed_end"
+        }
+    },
+    "solid": {
+        "Domain": {
+            "id": -8,
+            "dim": 3,
+            "name": "Domain"
+        }
+    }
+}
