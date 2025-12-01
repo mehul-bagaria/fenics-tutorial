@@ -424,3 +424,4 @@ jitfailure*/
 *.sublime-workspace
 workspace.json
 .DS_Store
+/2_codes/2_workshop/11_mesh_convergence/solutions
